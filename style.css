@@ -18,11 +18,11 @@ header{
     font-weight: 400;
     font-size: 30px;
     text-align:center;
-    margin-bottom:0px;
+    margin-bottom:0;
     padding-top: 50px;
 }
 #tonic{
-    font-family: "Lateef";
+    font-family:"Lateef";
     font-weight: 400;
     font-size: 40px;
     text-align:center;
@@ -32,4 +32,9 @@ header{
 /* navbar */
 .nav-link{
     color: #F2EDD4; !important;
+}
+
+/* video */
+video {
+    max-width:100%
 }
