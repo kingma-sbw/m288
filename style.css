@@ -1,7 +1,35 @@
+/*general*/
+body{
+    color: #F2EDD4;
+}
+
+
+/* header*/
+header{
+    color: #F2EDD4;
+    background-color: #1F2B33; /* blau im hintergrund*/
+}
 .col-4{
     text-align: center;
     padding: 20px;
 }
-.container{
-    border-bottom: 2px solid #000;
+#natural{
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-size: 30px;
+    text-align:center;
+    margin-bottom:0px;
+    padding-top: 50px;
+}
+#tonic{
+    font-family: "Lateef";
+    font-weight: 400;
+    font-size: 40px;
+    text-align:center;
+    border-bottom: 2px solid #F2EDD4;
+}
+
+/* navbar */
+.nav-link{
+    color: #F2EDD4; !important;
 }
