@@ -2,10 +2,19 @@
 body{
     color: #F2EDD4;
     font-family: "Hind Siliguri";!important; /* geht nicht, wird vom system überschrieben*/
-    font-size: 12px;
+    font-size: 24px;
 }
-
-
+#lustSommer{
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-size: 30px;
+    text-align:left;
+}
+h2{
+    font-family: "Open Sans";
+    font-size: 50px;
+    margin-bottom: 200px;!important;
+}
 /* header*/
 header{
     color: #F2EDD4;
@@ -34,6 +43,11 @@ header{
 /* navbar */
 .nav-link{
     color: #F2EDD4; !important;
+    margin-bottom: 20px;
+}
+.nav-link:hover{
+    color: #FFFFFF;
+    font-weight:bold;
 }
 
 /* video */
@@ -42,10 +56,28 @@ video {
 }
 
 /* main */
+/* button */
+.btn-group{
+    float: right;
+}
+.btn-group{
+    background-color: #1F2B33;!important;
+    margin-top: 20px;
+}
+.float-left{
+    width: 300px;
+}
 
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* footer */
 footer{
     background-color: #FBF5E0;
     padding: 70px;
+    margin-top: 100px;
 }
