@@ -43,15 +43,15 @@
         <!--hier fängt der main an-->
         <main>
             <!-- video-->
-            <video width="100%" height="100%" autoplay loop controls>
+            <video width="100%" height="100%" autoplay loop >
                 <source src="Header-Video.mp4" type="video/mp4">
             </video>
 
-            <!-- alle Artikel-->
+            <!-- alle Abschnitte-->
             <div class="container-fluid">
 
-                <!--erster Artikel-->
-                <div class="row punkte">
+                <!--erster Abschnitte-->
+                <div id="abstand" class="row">
 
                     <!--platzhalter Seiten-->
                     <div class="col-2"></div>
@@ -72,13 +72,13 @@
 
                     <!--illustration-->
                     <div class="col-6">
-                        <img src="Bilder/illustration-mit-kreis.svg" class="img-fluid" alt="Responsive image">
+                        <img id="mann" src="illustrationen/illustration-mit-kreis.svg" class="img-fluid" alt="Responsive image">
                     </div>
 
                 </div>
 
-                <!--zweiter Artikel-->
-                <div class="row punkte">
+                <!--zweiter Abschnitt-->
+                <div class="row">
 
                     <!--platzhalter Seiten-->
                     <div class="col-2"></div>
@@ -98,10 +98,49 @@
 
                             <!--button-->
                             <div class="btn-group">
-                                <button type="button" class="btn btn-secondary btn-lg">mehr erfahren</button>
+                                <button type="button" class="btn btn-lg btn-dark">mehr erfahren</button>
                             </div>
 
                         </section>
+                    </div>
+
+                    <!--platzhalter Seiten-->
+                    <div class="col-2"></div>
+
+                </div>
+
+                <!--dritter Abschnitt-->
+                <div class="row">
+
+                    <!--platzhalter Seiten-->
+                    <div class="col-2"></div>
+
+                    <!--1. column-->
+                    <div class="col-8 card-group">
+
+                        <div id="floatRight" class="border-light mb-3 card">
+                            <img class="card-img-top" src="illustrationen/blatt-01.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 class="card-titel">handgelesene Zutaten</h3>
+                            </div>
+                        </div>
+
+                        <!--2. column-->
+                        <div id="floatMiddle" class="border-light mb-3 card">
+                            <img class="card-img-top" src="illustrationen/shaker-01.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 class="card-titel">am besten gemixt</h3>
+                            </div>
+                        </div>
+
+                        <!--3. column-->
+                        <div id="floatLeft" class="border-light mb-3 card">
+                            <img class="card-img-top" src="illustrationen/zitrone-01.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 class="card-titel">bringt frische ins leben</h3>
+                            </div>
+                        </div>
+
                     </div>
 
                     <!--platzhalter Seiten-->

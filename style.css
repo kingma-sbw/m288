@@ -1,19 +1,23 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 /*general*/
 body{
     color: #F2EDD4;
-    font-family: "Hind Siliguri";!important; /* geht nicht, wird vom system überschrieben*/
-    font-size: 24px;
+    font-family:'Hind Siliguri', sans-serif;!important; /* geht nicht, wird vom system überschrieben*/
+    font-size: 3rem;!important;
 }
 #lustSommer{
-    font-family: "Pacifico";
+    font-family:'Pacifico', sans-serif;
     font-weight: 400;
     font-size: 30px;
     text-align:left;
 }
 h2{
-    font-family: "Open Sans";
+    font-family:'Open Sans', sans-serif;
     font-size: 50px;
     margin-bottom: 200px;!important;
+    color: #1F2B33;!important;
 }
 /* header*/
 header{
@@ -25,7 +29,7 @@ header{
     padding: 20px;
 }
 #natural{
-    font-family: "Pacifico";
+    font-family:Pacifico, sans-serif;
     font-weight: 400;
     font-size: 30px;
     text-align:center;
@@ -33,7 +37,7 @@ header{
     padding-top: 50px;
 }
 #tonic{
-    font-family:"Lateef";
+    font-family:'Lateef', sans-serif;
     font-weight: 400;
     font-size: 40px;
     text-align:center;
@@ -51,11 +55,26 @@ header{
 }
 
 /* video */
-video {
-    max-width:100%
+video { /* parent*/
+    max-width:100%;
 }
 
 /* main */
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+/*zwischen video und 1.abschnitt*/
+#abstand{
+    margin-top: 100px;
+}
+/*illustration*/
+#mann{
+    width: 90%;
+    float: right;
+}
 /* button */
 .btn-group{
     float: right;
@@ -64,17 +83,16 @@ video {
     background-color: #1F2B33;!important;
     margin-top: 20px;
 }
+/*bild*/
 .float-left{
     width: 300px;
 }
-
-section{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+/* 3. Abschnitt*/
+.card-titel{
+    text-align: center;
+    font-family:'Pacifico', sans-serif;
+    color: #1F2B33;
 }
-
 /* footer */
 footer{
     background-color: #FBF5E0;
