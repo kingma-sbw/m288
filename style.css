@@ -67,6 +67,14 @@ section{
     margin-bottom: 200px;
 }
 
+.text-left{
+    margin-bottom: 30px;
+}
+
+.empfehlung-text{
+    margin-top: 80px;
+}
+
 /*zwischen abschnitten*/
 .abstand{
     margin-top: 200px;
@@ -113,15 +121,7 @@ section{
 }
 
 /*gallery*/
-.multi-carousel-item{
-    max-width: 50%;
-    max-height: 50%;
-}
 
-.col-8{
-    max-height: 300px;
-    max-width: 500px;
-}
 
 /* footer */
 footer{
