@@ -1,6 +1,5 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 /*general*/
 body{
     color: #F2EDD4;
@@ -43,7 +42,6 @@ header{
     text-align:center;
     border-bottom: 2px solid #F2EDD4;
 }
-
 /* navbar */
 .nav-link{
     color: #F2EDD4; !important;
@@ -53,12 +51,10 @@ header{
     color: #FFFFFF;
     font-weight:bold;
 }
-
 /* video */
 video { /* parent*/
     max-width:100%;
 }
-
 /* main */
 section{
     padding-top: 70px;
@@ -66,20 +62,16 @@ section{
     margin-top: 100px;
     margin-bottom: 200px;
 }
-
 .text-left{
     margin-bottom: 30px;
 }
-
 .empfehlung-text{
     margin-top: 80px;
 }
-
 /*zwischen abschnitten*/
 .abstand{
     margin-top: 200px;
 }
-
 /*illustration*/
 #mann{
     width: 90%;
@@ -89,7 +81,6 @@ section{
     width: 100%;
     float: left;
 }
-
 /* buttons */
 .btn-group{
     float: right;
@@ -101,28 +92,22 @@ section{
     background-color: #1F2B33;!important;
     margin-top: 20px;
 }
-
 /*bilder*/
 .float-left{
     width: 300px;
     padding-rights: 30px;
 }
-
 .float-left-2{
     width: 500px;
     padding-rights: 30px;
 }
-
 /* 3. Abschnitt*/
 .card-titel{
     text-align: center;
     font-family:'Pacifico', sans-serif;
     color: #1F2B33;
 }
-
 /*gallery*/
-
-
 /* footer */
 footer{
     background-color: #FBF5E0;
