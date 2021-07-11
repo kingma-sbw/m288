@@ -48,7 +48,7 @@ header{
     margin-bottom: 20px;
 }
 .nav-link:hover{
-    color: #FFFFFF;
+    color: #F2EDD4;
     font-weight:bold;
 }
 /* video */
@@ -63,6 +63,9 @@ section{
     margin-bottom: 200px;
 }
 .text-left{
+    margin-bottom: 30px;
+}
+.text-right{
     margin-bottom: 30px;
 }
 .empfehlung-text{
@@ -82,7 +85,7 @@ section{
     float: left;
 }
 /* buttons */
-.btn-group{
+.btn-group-1{
     float: right;
 }
 .btn-group-2{
