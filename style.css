@@ -98,11 +98,11 @@ section{
 /*bilder*/
 .float-left{
     width: 300px;
-    padding-rights: 30px;
+    padding-right: 30px;
 }
 .float-left-2{
     width: 500px;
-    padding-rights: 30px;
+    padding-right: 30px;
 }
 /* 3. Abschnitt*/
 .card-titel{
@@ -111,6 +111,13 @@ section{
     color: #1F2B33;
 }
 /*gallery*/
+.carousel-inner img {
+    border-radius: 18px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #1F2B33;
+
+}
 /* footer */
 footer{
     background-color: #FBF5E0;
