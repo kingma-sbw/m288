@@ -23,10 +23,6 @@ header{
     color: #F2EDD4;
     background-color: #1F2B33; /* blau im hintergrund*/
 }
-.col-4{
-    text-align: center;
-    padding: 20px;
-}
 #natural{
     font-family:Pacifico, sans-serif;
     font-weight: 400;
@@ -59,8 +55,6 @@ video { /* parent*/
 section{
     padding-top: 70px;
     padding-bottom: 70px;
-    margin-top: 100px;
-    margin-bottom: 200px;
 }
 .text-left{
     margin-bottom: 30px;
@@ -68,13 +62,13 @@ section{
 .text-right{
     margin-bottom: 30px;
 }
-.empfehlung-text{
+/*.empfehlung-text{
     margin-top: 80px;
-}
+}*/
 /*zwischen abschnitten*/
-.abstand{
+/*.abstand{
     margin-top: 200px;
-}
+}*/
 /*illustration*/
 #mann{
     width: 90%;
@@ -105,6 +99,10 @@ section{
     padding-right: 30px;
 }
 /* 3. Abschnitt*/
+.card-group{
+    padding-bottom: 50px;
+    padding-top:100px;
+}
 .card-titel{
     text-align: center;
     font-family:'Pacifico', sans-serif;
