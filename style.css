@@ -114,7 +114,9 @@ section{
     border-bottom-style: solid;
     border-top-style: solid;
     border-color: #1F2B33;
-
+}
+#carouselExampleSlidesOnly{
+    margin-top: 50px;
 }
 /* footer */
 footer{
