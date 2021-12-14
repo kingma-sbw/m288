@@ -44,7 +44,7 @@
             <div class="col-2"></div>
             <!--bild-->
             <div class="col-8">
-                    <h2 id="productTitle">name of product</h2>
+                    <h2 id="produktName">name of product</h2>
             </div>
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
@@ -53,9 +53,20 @@
         <div class="row">
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
-            <!--bild-->
-            <div id="productImage" class="col-8">
-                    <img src="Bilder/_MG_8620.jpg" class="float-center" height="500px" alt="Responsive image">
+            <!--switcher mit bild-->
+            <div id="produktBackground" class="col-8">
+                <!-- arrows --->
+                <nav aria-label="Page navigation example">
+                    <ul id="pagina" class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" onclick="showPrevious()" href="#">Previous</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" onclick="showNext()" href="#">Next</a></li>
+                    </ul>
+                </nav>
+                    <!--bild-->
+                    <img src="Bilder/_MG_8620.jpg" id="productImage" class="float-center" height="500px" alt="Responsive image">
             </div>
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
@@ -67,8 +78,8 @@
             <!--text-->
             <div class="col-5 lead">
                 <section>
-                    <h3>Price</h3>
-                    <p class="text-left">Das Natural Indian Tonic Water bietet dir alles, was du bei dieser brennenden Hitze brauchst! Gepart mit einer Scheibe Limette und kühlenden Eiswürfeln bist du voll am Start. Das urbane Design der Glasflasche untertreicht den Stil der Firma FRANKLIN & SONS nur zu gut, denn sie sind seit 1886 bereits auf dem Markt. Diese verfeinerte Rezeptur kannst du dir nicht entgehen lassen!</p>
+                    <h3 id="produktPreis">Price</h3>
+                    <p class="text-left" id="produktText">Das Natural Indian Tonic Water bietet dir alles, was du bei dieser brennenden Hitze brauchst! Gepart mit einer Scheibe Limette und kühlenden Eiswürfeln bist du voll am Start. Das urbane Design der Glasflasche untertreicht den Stil der Firma FRANKLIN & SONS nur zu gut, denn sie sind seit 1886 bereits auf dem Markt. Diese verfeinerte Rezeptur kannst du dir nicht entgehen lassen!</p>
                 </section>
             </div>
             <!--illustration-->
@@ -107,5 +118,7 @@
         </section>
     </div>
 </footer>
+<!-- JavaScript Einbindung -->
+<script src="ausgabe.js"></script>
 </body>
 </html>
