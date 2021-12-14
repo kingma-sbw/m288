@@ -53,14 +53,17 @@ video { /* parent*/
 }
 /* main */
 section{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .text-left{
     margin-bottom: 30px;
 }
 .text-right{
     margin-bottom: 30px;
+}
+text.center{
+    margin-bottom: 20px;
 }
 #mann{
     width: 90%;
@@ -115,4 +118,21 @@ footer{
     background-color: #FBF5E0;
     padding: 70px;
     margin-top: 100px;
+}
+
+/*PRRODUCT SIDE*/
+h3{
+    font-family:'Lateef', sans-serif !important;
+    font-weight: 400;
+    font-size: 55px !important;
+}
+#productTitle{
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+}
+#productImage{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    background-color: #EEEEEE;
+    text-align: center;
 }
