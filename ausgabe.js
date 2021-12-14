@@ -2,9 +2,9 @@ let product = undefined;
 
 function showUI()
 {
-    let htmlObj = document.getElementById(elementId:"produktbeschreibung");
+    let htmlObj = document.getElementById(`produktbeschreibung`)
     htmlObj.innerHTML=
-        '${produkt.produktName<br>'+
-        '${produkt.produktPreis<br>'+
-        '${produkt.produktbeschreibung<br>'+
+        '${data.produktName<br>'+
+        '${data.produktPreis<br>'+
+        '${data.produktText<br>';
 }
