@@ -132,8 +132,15 @@ h3{
     margin-top: 50px !important;
 }
 #produktBackground{
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #EEEEEE;
-    text-align: center;
+    text-align: center;!important;
+}
+#produktImage{
+    height: 300px;
+}
+.page-link{
+    margin-top: 130px;
+    border: none;
 }

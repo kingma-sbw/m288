@@ -38,35 +38,25 @@
 <main>
     <!-- alle Abschnitte-->
     <div class="container-fluid">
-        <!--erster text Abschnitt-->
         <div class="row">
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
-            <!--bild-->
             <div class="col-8">
-                    <h2 id="produktName">name of product</h2>
-            </div>
-            <!--platzhalter Seiten-->
-            <div class="col-2"></div>
-        </div>
-        <!--Produkt Bild Abschnitt-->
-        <div class="row">
-            <!--platzhalter Seiten-->
-            <div class="col-2"></div>
-            <!--switcher mit bild-->
-            <div id="produktBackground" class="col-8">
-                <!-- arrows --->
-                <nav aria-label="Page navigation example">
-                    <ul id="pagina" class="pagination">
+                <h2 id="produktName">name of product</h2>
+                <!-- Pagination -->
+                <nav id="produktBackground" aria-label="Page navigation example">
+                    <ul id="pagination" class="pagination d-flex justify-content-center">
                         <li class="page-item">
-                            <a class="page-link" onclick="showPrevious()" href="#">Previous</a>
+                            <a class="page-link border-0 p-3 mb-2 bg-transparent text-dark" onclick="back()" href="#">&#8249;</a>
+                        </li>
+                        <li>
+                            <img id="produktImage" class="float-center" height="500px" alt="Responsive image">
                         </li>
                         <li class="page-item">
-                            <a class="page-link" onclick="showNext()" href="#">Next</a></li>
+                            <a class="page-link border-0 p-3 mb-2 bg-transparent text-dark" onclick="next()" href="#">&#8250;</a>
+                        </li>
                     </ul>
                 </nav>
-                    <!--bild-->
-                    <img src="Bilder/_MG_8620.jpg" id="productImage" class="float-center" height="500px" alt="Responsive image">
             </div>
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
@@ -79,13 +69,13 @@
             <div class="col-5 lead">
                 <section>
                     <h3 id="produktPreis">Price</h3>
-                    <p class="text-left" id="produktText">Das Natural Indian Tonic Water bietet dir alles, was du bei dieser brennenden Hitze brauchst! Gepart mit einer Scheibe Limette und kühlenden Eiswürfeln bist du voll am Start. Das urbane Design der Glasflasche untertreicht den Stil der Firma FRANKLIN & SONS nur zu gut, denn sie sind seit 1886 bereits auf dem Markt. Diese verfeinerte Rezeptur kannst du dir nicht entgehen lassen!</p>
+                    <p id="produktText" class="text-left">text</p>
                 </section>
             </div>
             <!--illustration-->
             <div class="col-3">
                 <section>
-                    <img id="mann" src="illustrationen/illustration-mit-kreis.svg" class="img-fluid" alt="Responsive image">
+                    <img id="ingredients" class="img-fluid" alt="Responsive image">
                 </section>
             </div>
         </div>
@@ -119,7 +109,7 @@
     </div>
 </footer>
 <!-- JavaScript Einbindung -->
-<script src="data.js"></script>
-<script src="ausgabe.js"></script>
+<script src="js/data.js"></script>
+<script src="js/ausgabe.js"></script>
 </body>
 </html>
