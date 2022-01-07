@@ -23,6 +23,11 @@ function showUI() {
         htmlObj = document.getElementById("produktText");
         htmlObj.innerHTML =
             `${produkt.beschreibung}`;
+
+    //Beschreibung des Produktes
+        htmlObj = document.getElementById("produktZutaten");
+        htmlObj.src =
+            `${produkt.icon}`;
     }
 
 // nächstes Produkt
