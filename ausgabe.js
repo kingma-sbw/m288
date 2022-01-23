@@ -24,7 +24,7 @@ function showUI() {
         htmlObj.innerHTML =
             `${produkt.beschreibung}`;
 
-    //Beschreibung des Produktes
+    //ein icon, dass eine Zutat des Produkts zeigt
         htmlObj = document.getElementById("produktZutaten");
         htmlObj.src =
             `${produkt.icon}`;
