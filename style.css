@@ -81,6 +81,9 @@ text.center{
 .btn-group-2{
     float: left;
 }
+.btn-group-3{
+    text-align:center ;
+}
 .btn-group{
     background-color: #1F2B33;!important;
     margin-top: 20px;
@@ -143,10 +146,20 @@ h3{
     height: 300px;
 }
 .page-link{
-    margin-top: 130px;
+    margin-top: 50px;
     border: none;
+    font-size: 100px;
 }
 #produktZutaten{
     height: 170pt;
     padding-left: 50px;
+}
+.newsletter{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    border-style: dotted;
+    border-width: medium;
 }
