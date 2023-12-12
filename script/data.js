@@ -1,5 +1,5 @@
 /* JSON */
-let produktListe =
+export let produktListe =
 [
     {
     "name": "brewed ginger beer",

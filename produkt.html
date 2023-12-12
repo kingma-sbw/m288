@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <title>produkt</title>
+    <script src="script/ausgabe.js" type="module"></script>
+
 </head>
 <body>
 <!--hier fängt der header an-->
@@ -47,13 +49,13 @@
                 <nav id="produktBackground" aria-label="Page navigation example">
                     <ul id="pagination" class="pagination d-flex justify-content-center">
                         <li class="page-item">
-                            <a class="page-link border-0 p-3 mb-2 bg-transparent text-dark" onclick="back()" href="#">&#8249;</a>
+                            <a id="back" class="page-link border-0 p-3 mb-2 bg-transparent text-dark" href="#">&#8249;</a>
                         </li>
                         <li>
                             <img id="produktImage" class="float-center" height="500px" alt="Responsive image">
                         </li>
                         <li class="page-item">
-                            <a class="page-link border-0 p-3 mb-2 bg-transparent text-dark" onclick="next()" href="#">&#8250;</a>
+                            <a id="next" class="page-link border-0 p-3 mb-2 bg-transparent text-dark" href="#">&#8250;</a>
                         </li>
                     </ul>
                 </nav>
@@ -111,7 +113,6 @@
     </div>
 </footer>
 <!-- JavaScript Einbindung -->
-<script src="script/data.js"></script>
-<script src="script/ausgabe.js"></script>
+
 </body>
 </html>

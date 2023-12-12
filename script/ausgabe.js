@@ -1,3 +1,5 @@
+import { produktListe } from "./data.js";
+
 /* Deklaration der Variabeln */
 let index;
 let produkt = undefined;
@@ -31,7 +33,7 @@ function showUI() {
     }
 
 // nächstes Produkt
-    function next() {
+    document.getElementById("back").addEventListener("click", function next() {
         //Browser speicher hinauslesen
         index = localStorage.getItem("index");
         //testausgabe
@@ -48,10 +50,9 @@ function showUI() {
         produkt = produktListe[index];
         //zeige es
         showUI();
-    }
-
+    });
 // vorheriges Produkt
-    function back() {
+    document.getElementById("next").addEventListener("click", function back() {
         //Browser speicher hinauslesen
         index = localStorage.getItem("index");
         //testausgabe
@@ -68,7 +69,7 @@ function showUI() {
         produkt = produktListe[index];
         //zeige es
         showUI();
-    }
+    });
 
 //Falls der index nicht definiert ist ...
 if (produkt === undefined){
